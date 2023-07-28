@@ -1,0 +1,60 @@
+/* Apply styles to the body element */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/78/52/28/1000_F_278522829_XtMhHvtEKYYFhrEmRzhl1SDhtUT5eRM2.jpg"); /* Replace "path/to/your/image.jpg" with the actual path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Style the container for the game elements */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 3rem; /* Increase the font size for the heading */
+  margin-bottom: 1rem;
+}
+
+/* Style the message paragraph */
+p {
+  font-size: 1.5rem; /* Increase the font size for the paragraph elements */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Style the buttons container */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* Style the buttons */
+button {
+  font-size: 1.8rem; /* Increase the font size for the buttons */
+  padding: 1rem 2rem; /* Increase the padding for the buttons */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
